@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@400;500;700&family=Poppins&family=Roboto+Condensed:wght@300;400;700&family=Share+Tech+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins, sans-serif;
+    background-color: #202124;
+    color: white;
+    padding: 41px 75px 0 75px;
+}
+
+.navbox{
+    display: flex;
+    gap: 147px;
+    border: 2px red solid;
+    align-items: center;
+    
+}
+
+.name-logo {
+    text-decoration: none;
+    flex-grow: 2 ;
+    color: white;
+    font-size: 36px;
+}
+
+.box-search{
+    flex-grow: 1;
+}
+
+.box-menu{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+}
+/* imagem temporária para montar o esqueleto do header*/
+.img-logo{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
